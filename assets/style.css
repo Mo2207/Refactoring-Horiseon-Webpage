@@ -59,6 +59,7 @@ body {
     background-position: center;
 }
 
+/* float-left & float-right are both just another level of customization to apply where desired. */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -75,6 +76,7 @@ body {
     margin-left: 20px;
 }
 
+/* Since each section of content is styled the same, I created one class that all of them share instead of repeating the same code. If personalization is ever required, they can be targeted using ID's, or classes similar to float-right/left. */
 .content-item {
     margin-bottom: 20px;
     padding: 50px;
@@ -104,6 +106,7 @@ body {
     background-color: #2589bd;
 }
 
+/* Same with the benefits, they are all styled the same so I gave them a common class for styling. */
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
@@ -120,6 +123,7 @@ body {
     max-width: 150px;
 }
 
+/* removed the "footer" class and replaced it with an actual footer */
 footer {
     padding: 30px;
     clear: both;

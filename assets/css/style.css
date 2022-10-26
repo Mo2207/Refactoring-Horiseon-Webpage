@@ -76,7 +76,7 @@ main {
     margin-left: 20px;
 }
 
-/* Since each section of content is styled the same, I created one class that all of them share instead of repeating the same code. If personalization is ever required, they can be targeted using ID's, or classes similar to float-right/left. */
+/* Since each section of content is styled the same, I created one class that all of them share instead of repeating the same code. The links function through their IDS */
 .content-item {
     margin-bottom: 20px;
     padding: 50px;
